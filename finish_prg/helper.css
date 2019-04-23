@@ -1,0 +1,29 @@
+#top {
+  background-image: url("bureau.jpg");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  padding: 5px;
+}
+
+#top > nav > li > a {
+  color: gray;
+}
+
+.jumbotron {
+  background: none;
+}
+
+.blog-header {
+  height: 475px;
+}
+
+.main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #f5f5f5;
+}

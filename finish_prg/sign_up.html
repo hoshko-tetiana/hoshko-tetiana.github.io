@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="sign_up.css">
+
+    <title>Помічник! | Реєстрація</title>
+  </head>
+  <body class="text-center mb-3">
+    <form class="form-signup">
+      <h1 class="h3">Реєстрація</h1>
+      <label for="inputFirstName" class="sr-only">Ім'я</label>
+      <input id="inputFirstName" class="form-control" placeholder="Петро" required="" autofocus="">
+      
+      <label for="inputLastName" class="sr-only">Прізвище</label>
+      <input id="inputLastName" class="form-control" placeholder="Петренко" required="" autofocus="">
+      
+      <select class="custom-select role">
+        <option selected>Хто я?</option>
+        <option value="1">Учитель</option>
+        <option value="2">Батько / Матір</option>
+        <option value="3">Учень</option>
+      </select>
+      
+      <label for="inputEmail" class="sr-only">Пошта</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="example@gmail.com" required="" autofocus="">
+      
+      <label for="inputPassword" class="sr-only">Пароль</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Пароль" required="">
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Запам'ятайте мене, будь-ласка :)
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Зареєструватися</button>
+      <p class="mt-5 mb-3 text-muted">© 2018-2019</p>
+    </form>
+  </body>
+</html>
